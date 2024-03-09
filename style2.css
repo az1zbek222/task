@@ -1,0 +1,167 @@
+.sec-4 .row .col-sm-6 .card .btn-1 {
+  width: 180px !important;
+  height: 45px !important;
+  border-radius: 5px !important;
+  color: white !important;
+  border: 2px solid white !important;
+  background-color: transparent !important; }
+
+.sec-5 .col-sm-6 .btn-2 {
+  width: 120px !important;
+  height: 55px !important;
+  border-radius: 5px;
+  color: white !important;
+  border: none !important; }
+
+.navbar .collapse .navbar-nav li, .navbar .collapse .navbar-nav a {
+  color: blue;
+  margin-left: 20px; }
+
+.sec-1 {
+  background-color: #0f6674; }
+  .sec-1 .row .col-sm-6 .card {
+    background-color: #0f6674;
+    border: none; }
+    .sec-1 .row .col-sm-6 .card .card-header {
+      background-color: transparent;
+      border: none;
+      text-transform: uppercase;
+      color: #EAE9E9; }
+      .sec-1 .row .col-sm-6 .card .card-header h1 {
+        font-size: 50px; }
+      .sec-1 .row .col-sm-6 .card .card-header img {
+        object-fit: cover;
+        width: 130px;
+        height: 130px; }
+    .sec-1 .row .col-sm-6 .card .card-body {
+      margin-top: -20px; }
+      .sec-1 .row .col-sm-6 .card .card-body h1 {
+        color: #EAE9E9;
+        font-size: 50px; }
+      .sec-1 .row .col-sm-6 .card .card-body h5 {
+        margin-top: 35px;
+        color: #eae9e9; }
+
+.sec-2 .col-sm-4 .card {
+  border: none;
+  text-transform: uppercase; }
+  .sec-2 .col-sm-4 .card h1 {
+    font-size: 50px; }
+  .sec-2 .col-sm-4 .card h2 {
+    font-size: 55px; }
+
+.sec-3 .col-sm-10 .row .col-sm-4 img {
+  object-fit: cover;
+  width: 100%; }
+
+.sec-4 {
+  background-color: #0f6674; }
+  .sec-4 .row .col-sm-6 .card {
+    border: none;
+    background-color: transparent; }
+    .sec-4 .row .col-sm-6 .card .card-header {
+      background-color: transparent;
+      border: none;
+      text-transform: uppercase; }
+    .sec-4 .row .col-sm-6 .card h1 {
+      color: #1d2124; }
+    .sec-4 .row .col-sm-6 .card h2 {
+      font-size: 48px; }
+    .sec-4 .row .col-sm-6 .card .card-body .row .col p {
+      color: white;
+      font-size: 19px; }
+    .sec-4 .row .col-sm-6 .card .card-footer {
+      background-color: transparent;
+      border: none; }
+
+.sec-5 .col-sm-6 .card {
+  background-color: transparent;
+  border: none; }
+.sec-5 .col-sm-6 .card-header {
+  background-color: transparent;
+  border: none;
+  text-transform: uppercase; }
+  .sec-5 .col-sm-6 .card-header h2 {
+    font-size: 48px; }
+.sec-5 .col-sm-6 .card-body input {
+  width: 500px;
+  height: 60px;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid grey;
+  font-size: 22px; }
+.sec-5 .col-sm-6 .card-body input::placeholder {
+  border: none !important;
+  outline: none !important; }
+.sec-5 .col-sm-6 .card-footer {
+  background-color: transparent;
+  border: none; }
+
+.foot-1 {
+  background-color: #1d2124; }
+  .foot-1 .row .col-sm-3 .card {
+    background-color: transparent;
+    border: none; }
+    .foot-1 .row .col-sm-3 .card .card-header {
+      background-color: transparent;
+      border: none; }
+    .foot-1 .row .col-sm-3 .card .card-body img {
+      width: 40px;
+      height: 40px;
+      margin-top: -30px; }
+  .foot-1 .row .col-sm-4 .card {
+    background-color: transparent;
+    border: none; }
+    .foot-1 .row .col-sm-4 .card .card-header {
+      margin-top: -20px;
+      background-color: transparent;
+      border: none; }
+    .foot-1 .row .col-sm-4 .card .card-body {
+      margin-top: -20px; }
+    .foot-1 .row .col-sm-4 .card .card-footer {
+      margin-top: -20px;
+      background-color: transparent;
+      border: none; }
+      .foot-1 .row .col-sm-4 .card .card-footer h6 {
+        color: #721c24; }
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    margin: auto;
+    width: 95%; }
+
+  .sec-1 {
+    width: 95%;
+    margin: auto; }
+
+  .sec-2 {
+    width: 90%; }
+
+  .sec-3 {
+    margin: auto;
+    width: 95%; }
+    .sec-3 .row .col-sm-4 {
+      margin-top: 20px; }
+
+  .sec-4 {
+    margin: auto;
+    width: 95%; }
+
+  .sec-5 {
+    margin-left: 0;
+    width: 90%; }
+    .sec-5 .col-sm-6 {
+      margin: auto; }
+      .sec-5 .col-sm-6 .card .card-body form label input {
+        width: 130%; }
+      .sec-5 .col-sm-6 .card .card-footer {
+        width: 95%;
+        margin: auto; }
+        .sec-5 .col-sm-6 .card .card-footer .btn-2 {
+          width: 30%; }
+
+  .foot-1 {
+    margin: auto;
+    width: 95%; } }
+
+/*# sourceMappingURL=style2.css.map */
